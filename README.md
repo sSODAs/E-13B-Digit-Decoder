@@ -1,7 +1,43 @@
-FINAL-EVENT-QUEST
+# E-13B Digit Decoder
+(Digital Image Processing course final event)
 
-พิมพ์คำสั่งนี้เพื่อ run โปรแกรมใน Terminal:
+This digit recognition project focuses on using **basic image processing techniques** to read a six-digit number written in the **E-13B** font from an image. The goal is to practice and demonstrate core concepts such as preprocessing, segmentation, and template matching without using external computer vision libraries.
+
+<img src="raw/FinalDIP67.bmp" width="400">
+
+<br>
+
+## What This Project Does
+- Reads an input image containing a six-digit E-13B number
+- Converts the image to grayscale and binary form
+- Segments each digit region
+- Matches each digit with predefined templates
+- Outputs the recognized number
+
+This is a **rule-based / classical image processing approach**, not a machine learning model.
+
+<br>
+
+## Setup and Run
+**Requirements**
+- Java JDK 8 or higher
+
+**Compile and Execute**
+```base
+$ javac -d ./build ./src/Final_Event.java
+$ java -cp ./build Final_Event
 ```
-javac -d './build' './src/Final_Event.java' ; java '-cp' './build' 'Final_Event'
-```
+<br>
+
+## Input & Output
+**Input:**<br>
+An image containing a six-digit number written in E-13B font.
+
+**Output:**<br>
+The decoded number displayed in the console. Intermediate processing results may be saved in the ```output/``` folder.
+
+<br>
+
+## Notes 
+This project was created to better understand how **image processing works at a low level**, including how digits can be extracted and recognized using simple algorithms rather than learning-based methods.
 
