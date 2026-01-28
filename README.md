@@ -1,9 +1,9 @@
 # E-13B Digit Decoder
+<img src="raw/FinalDIP67.bmp" width="400">
 (Digital Image Processing course final event)
 
 This digit recognition project focuses on using **basic image processing techniques** to read a six-digit number written in the **E-13B** font from an image. The goal is to practice and demonstrate core concepts such as preprocessing, segmentation, and template matching without using external computer vision libraries.
 
-<img src="raw/FinalDIP67.bmp" width="400">
 
 <br>
 
@@ -40,4 +40,5 @@ The decoded number displayed in the console. Intermediate processing results may
 
 ## Notes 
 This project was created to better understand how **image processing works at a low level**, including how digits can be extracted and recognized using simple algorithms rather than learning-based methods.
+
 
