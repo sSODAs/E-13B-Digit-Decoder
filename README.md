@@ -28,12 +28,13 @@ $ java -cp ./build Final_Event
 An image containing a six-digit number written in E-13B font.
 
 **Output:**<br>
-The decoded number displayed in the console. Intermediate processing results may be saved in the ```output/``` folder.
+The decoded number displayed in the console/terminals. Intermediate processing results will saved in the ```output/``` folder.
 
 <br>
 
 ## Notes 
 This project was created to better understand how **image processing works at a low level**, including how digits can be extracted and recognized using simple algorithms rather than learning-based methods.
+
 
 
 
